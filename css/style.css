@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 83px;
+    
+}
+
+.titulo{
+    font-size: 12px;
+    display: flex;
+    margin: 0px 0 0 195px;
+    align-items: center;
+    font-family: Roboto;
+    
+}
+.contato{
+    display: flex;
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+    column-gap: 80px;
+    margin-left: 750px;
+    align-items: center;
+}
+
+
+body {
+background-image: url("/img/background.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+}
+
+.nuvem{
+    background-color: #F70058;
+    width: 85px;
+    margin: 0 0 0 50px;
+}
+
+.nuvem_img{
+    margin: 13px 0 0 17px ;
+}
+.temp{
+    background-color: #0C0E36;
+    
+}
+
+.c1{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    margin: 19px 0 0 15px;
+}
+
+.h4-1{
+    color: white;
+    font-size: 14px;
+    margin: -16px 0 0 120px;
+}
+.div_temp{
+    background-color: #8A8A9D;
+    width: 150px;
+    height: 1px;
+    margin: 10px 0 0 10px;
+}
+
+.c2{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    margin: 10px 0 0 15px;
+}
+
+.h4-2{
+    color: white;
+    font-size: 14px;
+    margin: -16px 0 0 120px;
+}
+.container{
+    margin: 250px 0px 0px 196px;
+}
+.titulo-info{
+    width: 538px;
+    height: 116px;
+    color: rgba(12, 14, 54, 1);
+    font-size: 48px;
+    font-family: Work Sans;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+
+}
+
+.info{
+    width: 615px;
+    height: 117px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: Work Sans;
+    font-weight: 400;
+
+
+}
+.btn{
+    display: flex;
+
+}
+
+.pass{
+    width: 240px;
+    height: 49px;
+    background-color: rgba(247, 0, 88, 1);
+    margin-right: 30px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: Work Sans;
+    font-weight: 700;
+
+}
+.tickets{
+    width: 240px;
+    height: 49px;
+    border-color: #F70058;
+    color: #F70058;
+    font-size: 16px;
+    font-family: Work Sans;
+    font-weight: 700;
+
+}
